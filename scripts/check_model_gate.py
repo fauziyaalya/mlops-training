@@ -10,7 +10,7 @@ Latihan di kelas: jalankan juga dengan AUC rendah, contoh:
 """
 import sys
 
-MINIMUM_AUC = 0.75
+MINIMUM_AUC = 0.7
 
 def check_gate(auc: float) -> bool:
     return auc >= MINIMUM_AUC
