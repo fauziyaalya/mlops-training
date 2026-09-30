@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+mlflow
+dvc
+great_expectations
+fastapi
+uvicorn
+evidently

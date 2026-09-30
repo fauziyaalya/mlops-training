@@ -1,0 +1,23 @@
+artifact_path: file:D:/BNI/Bootcamp/MLOPS-ODP-Labfile/ml-ops/mlruns/2/models/m-c5130f1684284f6db4482ff83b855bb0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-c5130f1684284f6db4482ff83b855bb0
+model_size_bytes: 21933846
+model_uuid: m-c5130f1684284f6db4482ff83b855bb0
+prompts: null
+run_id: 4aa973688bce4d4485d0efd084a8bcde
+utc_time_created: '2026-09-30 06:40:52.672105'
